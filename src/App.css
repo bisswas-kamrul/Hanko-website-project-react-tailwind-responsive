@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-HeaderTextColor:  "Oswald", sans-serif;
+}
+span.sr-only {
+  display: none !important;
+}
+.slick-prev{
+  background: transparent !important;
+ left:  15px !important;
+ z-index: 10 !important;
+
+}
+.slick-prev::before{
+  color: white !important;
+  font-size: 30px !important;
+}
+.slick-next{
+  background: transparent !important;
+  right: 15px !important;
+}
+.slick-next::before{
+  color: white !important;
+  font-size: 30px !important;
+}
