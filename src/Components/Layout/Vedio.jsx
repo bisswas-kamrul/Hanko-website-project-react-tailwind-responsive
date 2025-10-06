@@ -57,7 +57,7 @@ const Vedio = () => {
           <h4 className="font-HeaderTextColor font-medium text-2xl text-white text-center pt-4">
             PREVIOUS MATCHES
           </h4>
-          <Flex className={"flex-col md:flex-row flex justify-evenly"}>
+          <Flex className={"flex-col sm:flex-row flex justify-evenly"}>
             <div className="h-[80px] w-[250px] bg-[#212121] mt-5">
               <div className="flex justify-between">
                 <Images
@@ -88,7 +88,7 @@ const Vedio = () => {
               </div>
             </div>
           </Flex>
-          <Flex className={"flex-col md:flex-row flex justify-evenly"}>
+          <Flex className={"flex-col sm:flex-row flex justify-evenly"}>
             <div className="h-[80px] w-[250px] bg-[#212121] mt-5">
               <div className="flex justify-between">
                 <Images

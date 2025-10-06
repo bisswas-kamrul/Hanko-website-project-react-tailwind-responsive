@@ -97,7 +97,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <Flex className={"flex-col  md:flex-row"}>
+          <Flex className={"flex-col  sm:flex-row justify-between"}>
             <div className=" h-25 w-60 bg-[#212121] ml-8 mt-10 rounded-bl-3xl rounded-tr-3xl text-center pt-5">
               <span
                 className="text-white text-[18px] font-HeaderTextColor font-bold relative inline-block after:absolute after:h-[10px] after:w-[10px] after:bg-[#FF4655] after:content-['

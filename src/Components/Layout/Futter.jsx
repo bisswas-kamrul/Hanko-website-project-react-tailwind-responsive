@@ -33,7 +33,7 @@ const Futter = () => {
                 <FaInstagram className="text-white ml-5 mt-10 text-2xl"/>
                 </div>
             </div>
-            <div className="">
+            <div className="mt-5">
                 <h5 className="font-HeaderTextColor font-semibold text-white text-2xl">LINKS</h5>
                <ul>
                 <li className="font-HeaderTextColor font-medium text-[#666] text-sm ">Home</li>

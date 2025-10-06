@@ -25,7 +25,7 @@ const Product = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          initialSlide: 2
+         
         }
       },
       {
@@ -54,7 +54,7 @@ const Product = () => {
                 <Images
                   ImgSrc={product1}
                   AltSrc={"product-1.png"}
-                  className={"md:h-[350px]"}
+                  className={" md:h-[350px]"}
                 />
                 <Bage
                   bageText={"$95%"}
