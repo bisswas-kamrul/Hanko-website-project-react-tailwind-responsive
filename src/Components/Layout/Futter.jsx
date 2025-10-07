@@ -22,7 +22,7 @@ const Futter = () => {
         <div
           className="md:h-[250px] bg-no-repeat bg-center bg-cover"
           style={{ backgroundImage: `url('/two game.jpg')` }}>
-          <Flex className={"flex-col md:flex-row"}>
+          <Flex className={"flex-col sm:flex-row justify-between items-center"}>
             <div className="">
                 <Images ImgSrc={Futterpng} AltSrc={"futter.png"} className={"ml-5 mt-5"}/>
                 <p className="font-HeaderTextColor font-medium text-sm text-[#666] pl-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br></br>Ipsum reprehenderit deserunt dolorem. Suscipit minus, <br></br>tenetur facilis optio cupiditate eligendi.</p>
@@ -33,7 +33,7 @@ const Futter = () => {
                 <FaInstagram className="text-white ml-5 mt-10 text-2xl"/>
                 </div>
             </div>
-            <div className="mt-5">
+            <div className="">
                 <h5 className="font-HeaderTextColor font-semibold text-white text-2xl">LINKS</h5>
                <ul>
                 <li className="font-HeaderTextColor font-medium text-[#666] text-sm ">Home</li>

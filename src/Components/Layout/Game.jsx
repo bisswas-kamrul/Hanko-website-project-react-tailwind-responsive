@@ -22,7 +22,7 @@ const Game = () => {
           <span className="font-HeaderTextColor font-semibold text-3xl text-white pl-245 relative inline-block after:absolute after:h-[1px] after:w-[100px] after:bg-[#FF4655] after:top-6 after:left-10 after:ml-205">
             SALE
           </span>
-          <Flex className={"flex-col md:flex-row"}>
+          <Flex className={"flex-col sm:flex-row"}>
             <div className="mt-10">
               <Images ImgSrc={game1} AltSrc={"game-1.png"} />
               <div className="h-[130px] bg-[#212121]">
@@ -82,7 +82,7 @@ const Game = () => {
                 </h6>
                 <div className="flex gap-2">
                   <Bage bageText={"40%"} className={"mt-6 text-white pt-2"} />
-                  <del className="text-white pt-8">$7.99</del>
+                  {/* <del className="text-white pt-8">$7.99</del> */}
                   <span className="text-white pt-8">$ 7.99</span>
                 </div>
               </div>

@@ -23,7 +23,7 @@ const About = () => {
             <Images
               ImgSrc={aboutpng}
               AltSrc={"aboutpng"}
-              className={"sm:w-[550px] md:ml-7 md:mt-5 md:w-[580px]"}
+              className={"sm:w-full md:ml-7 md:mt-5 md:w-[580px]"}
             />
             <div className="md:w-[580px]">
               <h4 className="sm:text-[20px] font-HeaderTextColor font-semibold md:text-2xl text-white pt-5">
